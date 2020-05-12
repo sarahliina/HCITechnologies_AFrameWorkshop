@@ -6,7 +6,7 @@ var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
   myOtherBox.rotation.x += rotationSpeed;
-  console.log(myOtherBox.object3D.rotation.x);
+  console.log(myOtherBox.rotation.x);
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
