@@ -18,7 +18,7 @@ function spin(){
 }
 
 function positionX(){
-  if (check <= 10) {
+  if (check <= 50) {
     myOtherBox.object3D.position.y += 0.05;
   }
 
@@ -27,7 +27,7 @@ function positionX(){
   }
 
   check++;
-  if (check==25) {
+  if (check==100) {
     check = 0;
   }
 }
