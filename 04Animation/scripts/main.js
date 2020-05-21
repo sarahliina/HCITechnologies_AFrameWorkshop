@@ -18,7 +18,7 @@ function spin(){
 }
 
 function positionRight(){
-  if (int check < 100) {
+  if (int check < 15) {
     myOtherBox.object3D.position.x += 0.5;
   }
 
@@ -27,10 +27,6 @@ function positionRight(){
   }
 
   check++;
-
-  if (int check = 1000) {
-    int check = 0;
-  }
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
