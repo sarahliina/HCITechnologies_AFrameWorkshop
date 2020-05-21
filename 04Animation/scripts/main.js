@@ -27,7 +27,7 @@ function positionX(){
   }
 
   check++;
-  if (check=10) {
+  if (check=15) {
     check = 0;
   }
 }
