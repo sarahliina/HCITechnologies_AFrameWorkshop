@@ -23,7 +23,7 @@ function positionX(){
   }
 
   else {
-    myOtherBox.object3D.position.y -= 0.05;
+    myOtherBox.object3D.position.y -= 0.5;
   }
 
   check++;
