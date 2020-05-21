@@ -22,8 +22,8 @@ function positionX(){
     myOtherBox.object3D.position.y += 0.05;
   }
 
-  else {
-    myOtherBox.object3D.position.x = myOtherBox.object3D.position.x + 0.05;
+  else if (check > 50){
+    myOtherBox.object3D.position.y = myOtherBox.object3D.position.y - 0.05;
   }
 
   check++;
