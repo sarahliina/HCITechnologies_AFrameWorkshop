@@ -18,16 +18,16 @@ function spin(){
 }
 
 function positionX(){
-  if (check <= 2) {
+  if (check <= 10) {
     myOtherBox.object3D.position.y += 0.05;
   }
 
   else {
-    myOtherBox.object3D.position.y = myOtherBox.object3D.position.y - 0.5;
+    myOtherBox.object3D.position.y = myOtherBox.object3D.position.y - 0.05;
   }
 
   check++;
-  if (check==15) {
+  if (check==25) {
     check = 0;
   }
 }
