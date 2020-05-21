@@ -17,7 +17,7 @@ function spin(){
 }
 
 function position(){
-  myOtherBox.position.x += 5;
+  myOtherBox.object3D.position.x += 0.05;
 }
 
 setInterval(spin, 16); //equivalent to 60 fps
