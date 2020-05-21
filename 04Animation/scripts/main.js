@@ -4,6 +4,7 @@
 var rotationSpeed = 0.1;
 var rotationSpeedY = 0.001;
 var myOtherBox = document.getElementById('myOtherBox');
+var myBox = document.getElementById('myBox');
 var check = 0;
 var checkSize = 0;
 
