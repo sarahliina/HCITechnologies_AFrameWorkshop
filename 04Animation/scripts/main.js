@@ -19,15 +19,15 @@ function spin(){
 
 function positionX(){
   if (check <= 50) {
-    myOtherBox.object3D.position.x += 0.05;
+    myOtherBox.object3D.position.x += 0.005;
   }
 
   else {
-    myOtherBox.object3D.position.x -= 0.5;
+    myOtherBox.object3D.position.x -= 0.005;
   }
 
   check++;
-  if (check=100) {
+  if (check=51) {
     check = 0;
   }
 }
