@@ -17,7 +17,7 @@ function spin(){
   console.log(myOtherBox.object3D.rotation.z);
 }
 
-function positionRight(){
+function position(){
   if (int check <= 25) {
     myOtherBox.object3D.position.x += 0.5;
   }
