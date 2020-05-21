@@ -51,4 +51,4 @@ function size() {
 
 setInterval(spin, 16); //equivalent to 60 fps
 setInterval(positionX, 16);
-setInterval(checkSize, 16);
+setInterval(size, 16);
