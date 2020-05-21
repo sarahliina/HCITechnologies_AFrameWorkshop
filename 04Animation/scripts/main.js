@@ -35,14 +35,12 @@ function positionX(){
 
 function size() {
   if (checkSize <= 250) {
-    myBox.object3D.width += 0.5;
-    myBox.object3D.height += 0.5;
-    myBox.object3D.depth += 0.5;
+    myBox.object3D.position.x += 0.5;
+    myBox.object3D.position.y += 0.5;
   }
   else{
-    myBox.object3D.width -= 0.5;
-    myBox.object3D.height -= 0.5;
-    myBox.object3D.depth -= 0.5;
+    myBox.object3D.position.x -= 0.5;
+    myBox.object3D.position.y -= 0.5;
   }
   checkSize++;
   if (checkSize == 500) {
