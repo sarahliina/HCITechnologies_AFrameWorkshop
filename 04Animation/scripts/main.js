@@ -37,10 +37,12 @@ function size() {
   if (checkSize <= 250) {
     myBox.object3D.width += 0.05;
     myBox.object3D.height += 0.05;
+    myBox.object3D.depth += 0.05;
   }
   else{
     myBox.object3D.width -= 0.05;
     myBox.object3D.height -= 0.05;
+    myBox.object3D.depth -= 0.05;
   }
   checkSize++;
   if (checkSize == 500) {
